@@ -207,7 +207,7 @@ span {
     line-height: 0;
 }
 
-/* ====================================================== */
+/* =====HEADER 768============================ */
 @media only screen and (min-width: 768px) {
     .container {
         max-width: 768px;
@@ -299,6 +299,11 @@ span {
         border-radius: 2px;
 
     }
+    .list-address{
+        display: flex;
+        flex-direction: column;
+        gap:12px;
+    }
 
     address {
         font-style: normal;
@@ -313,7 +318,7 @@ span {
 
 
 }
-
+/* ========HEADER 1158========================= */
 @media only screen and (min-width: 1158px) {
     .header {
         padding: 24px 0;
@@ -367,5 +372,22 @@ span {
 .address-mail:focus {
     color: #404bbf;
 }
+
+}
+
+/* <!-- SECTION-1 =========================--> */
+/* main  */
+/* benefits */
+.benefits {
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
+        url(../images/people-office.jpg);
+    max-width: 320px;
+    background-size: cover;
+    background-color: #2E2F42;
+    padding: 72px 52px ;
+    text-align: center;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 0 auto;
 
 }
