@@ -385,8 +385,58 @@ span {
     background-repeat: no-repeat;
     background-position: center;
     margin: 0 auto;
-
 }
+.container-benefits {
+    text-align: center;
+    margin: 0 auto;
+}
+
+
+    .title-main {
+
+        color: #fff;
+        font-size: 36px;
+        font-weight: 700;
+        max-width: 496px;
+        letter-spacing: 1.12px;
+        line-height: 1.1;
+        margin: 0 auto;
+letter-spacing: 0.02em;
+text-align: center;
+margin-bottom: 72px;
+    }
+
+    .button-main {
+        display: block;
+        min-width: 169px;
+        background-color: #4D5AE5;
+        color: #fff;
+        font-family: Roboto;
+        font-weight: 500;
+        margin-top: 48px;
+        letter-spacing: 0.64px;
+        cursor: pointer;
+        font-family: "Roboto", sans-serif;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.04em;
+        border: none;
+        border-radius: 4px;
+        height: 56px;
+        margin: 0 auto;
+        margin-top: 48px;
+        transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    }
+    button:hover {
+        background-color: #404BBF;
+    }
+    
+    button:focus {
+        background-color: #404BBF;
+    }
+    
+
+
 @media only screen and (min-resolution:192dpi) and (max-width:767px){
     .benefits{
         background-image: url(../images/Dark-bg-mob@2x.jpg), url(../images/Dark-bg-mobi@2x.jpg);
@@ -396,11 +446,21 @@ span {
 /* <!-- SECTION-1 768 =========================--> */
 
 @media only screen and (min-width:768px){
+    .container {
+        max-width: 768px;
+    }
     .benefits{
     max-width: 768px; 
     padding: 112px 136px ;
     background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
     url(../images/Dark-bg-tabl.jpg), url(../images/Dark-bg-tabl-2.jpg);
+}
+
+.title-main {
+    font-size: 56px;
+    letter-spacing: 0.02em;
+    max-width: 496px;
+    margin-bottom: 36px;
 }
 }
 
