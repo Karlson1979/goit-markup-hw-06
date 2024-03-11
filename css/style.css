@@ -42,7 +42,8 @@ ul {
     overflow: hidden;
 }
 
-/* MOBILE MENU */
+/*===== MOBILE MENU========================== */
+@media only screen and (max-width: 768px){
 .mobile-menu {
 
     position: fixed;
@@ -159,16 +160,14 @@ ul {
     align-items: center;
     gap: 24px;
 }
-
-/* ====================HEADER============================*/
-.header {
-    padding: 18px 0;
-    border-bottom: none;
-    box-shadow: none;
-    background: #fff;
+}
+@media only screen and (min-width: 768px){
+.mobile-menu{
+    display: none;
+}
 }
 
-
+/* ====================HEADER============================*/
 
 .container-header {
     display: flex;
@@ -176,8 +175,6 @@ ul {
     align-items: center;
     margin: 0 auto;
 }
-
-
 
 span {
     color: #2e2f42;
@@ -219,6 +216,13 @@ span {
 
 /* =====HEADER 768============================ */
 @media only screen and (min-width: 768px) {
+
+    .header {
+        padding: 18px 0;
+        border-bottom: none;
+        box-shadow: none;
+        background: #fff;
+    }
     .container {
         max-width: 768px;
     }
@@ -243,12 +247,7 @@ span {
         background: #fff;
     }
 
-   .container-header {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-    }
-
+   
     .logo {
         margin-right: 120px;
     }
@@ -282,11 +281,6 @@ span {
         line-height: 1.5;
         letter-spacing: 0.32px;
     }
-
-
-   
-
-
 
     .active {
         position: relative;
@@ -382,7 +376,7 @@ span {
 /* benefits */
 .benefits {
     background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
-        url(../images/people-office.jpg);
+        url(../images/Dark-bg-mob.jpg), url(../images/Dark-bg-mobi.jpg);
     max-width: 320px;
     background-size: cover;
     background-color: #2E2F42;
@@ -393,10 +387,49 @@ span {
     margin: 0 auto;
 
 }
+@media only screen and (min-resolution:192dpi) and (max-width:767px){
+    .benefits{
+        background-image: url(../images/Dark-bg-mob@2x.jpg), url(../images/Dark-bg-mobi@2x.jpg);
+    }
+}
+
+/* <!-- SECTION-1 768 =========================--> */
+
+@media only screen and (min-width:768px){
+    .benefits{
+    max-width: 768px; 
+    padding: 112px 136px ;
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
+    url(../images/Dark-bg-tabl.jpg), url(../images/Dark-bg-tabl-2.jpg);
+}
+}
 
 
 
+@media only screen and (min-resolution:192dpi) and (min-width:768px){
+    .benefits{
+        background-image: url(../images/Dark-bg-tabl@2x.jpg), url(../images/Dark-bg-tabl@2x-2.jpg);
+    }
 
+}
 
+/* <!-- SECTION-1 1158=========================--> */
+
+@media only screen and (min-width:1158px){
+    .benefits{
+        background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
+        url(../images/bg-desk.jpg), url(../images/Dark-bg-desk.jpg);
+    max-width: 1440px;
+    
+    padding: 188px 0;
+    }
+}
+
+@media only screen and (min-resolution:192dpi) and (min-width:1158px){
+    .benefits{
+        background-image: url(../images/Dark-bg-tabl@2x.jpg), url(../images/Dark-bg-tabl@2x-2.jpg);
+    }
+
+}
 
 
