@@ -781,11 +781,52 @@ button:focus {
 
 
 
-/* =====SECTION-3 1158 */
+/* =====SECTION-3 1158========================= */
 @media only screen and (min-width:1158px) {
     .list-time {
         
         width: calc((100% - 72px) / 4);
         
     }
+}
+
+/* =====SECTION-4==========================  */
+.our-portfolio {
+    padding: 96px 0;
+}
+.title-portfolio {
+    color: #2E2F42;
+    text-align: center;
+    line-height: 1.2;
+    font-size: 36px;
+    margin-bottom: 72px;
+    font-weight: 700;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+}
+.text-card{
+    display: none;
+}
+
+.addition {
+    padding: 32px 0px;
+    border: 1px solid #e7e9fc;
+    border-top: none;
+    box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
+background: #fff;
+}
+.title-portf {
+    color: #2E2F42;
+    margin-bottom: 8px;
+    font-size: 20px;
+    line-height: 1.2;
+    font-weight: 500;
+    letter-spacing: 0.02em;
+}
+.content-portf{
+font-weight: 400;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: #434455;
 }
