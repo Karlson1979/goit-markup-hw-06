@@ -612,7 +612,9 @@ button:focus {
 
 /* =====SECTION-2 1158 */
 @media only screen and (min-width:1158px) {
-
+    .content {
+        padding: 120px 0;
+    }
     .container{
         max-width: 1158px;
         padding: 0 15px;
@@ -658,3 +660,5 @@ button:focus {
             align-items: center;
     }
 }
+
+/* ============SECTION 3============================== */

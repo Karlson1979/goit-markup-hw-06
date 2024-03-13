@@ -181,20 +181,7 @@ address {
     margin: 0 auto;
 }
 
-.icon-border {
-    background-color: #f4f4fd;
-    border: 1px solid #8e8f99;
-    border-radius: 4px;
-    width: 264px;
-    margin-bottom: 8px;
-    height: 112px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 
-
-
-}
 
 .button-main {
     display: block;
@@ -246,11 +233,25 @@ content */
     clip: rect(0 0 0 0);
     overflow: hidden;
 }
+.icon-border {
+    background-color: #f4f4fd;
+    border: 1px solid #8e8f99;
+    border-radius: 4px;
+    width: 264px;
+    margin-bottom: 8px;
+    height: 112px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
+
+
+}
 .list-content {
     display: flex;
     gap: 24px;
 }
+
 
 .content-item {
     width: calc((100% - 72px) / 4);
