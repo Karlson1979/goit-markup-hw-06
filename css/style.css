@@ -809,7 +809,7 @@ button:focus {
 }
 
 .addition {
-    padding: 32px 0px;
+    padding: 32px 0 32px 16px;
     border: 1px solid #e7e9fc;
     border-top: none;
     box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
@@ -893,3 +893,140 @@ color: #434455;
         cursor: pointer;
     }
 }
+/* =====FOOTER======================= */
+.container-footer {
+    display: flex;
+flex-direction: column;
+    align-items: baseline;
+    
+}
+.contact {
+    background-color: #2E2F42;
+    padding: 96px 0;
+
+}
+.logo-footer {
+    display: inline-block;
+    font-family: "Raleway", sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    color: #2E2F42;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4d5ae5;
+    background-color: #2E2F42;
+    margin-bottom: 16px;
+    
+}
+.studio {
+    color: #f4f4fd;
+    background-color: #2E2F42;
+    text-align: start;
+
+}
+.footer-contact{
+    margin: 0 auto;
+    margin-bottom: 16px;
+}
+.content-footer {
+font-weight: 400;
+    color: #F4F4FD;
+    background-color: #2E2F42;
+    line-height: 1.5;
+    max-width: 288px;
+font-size: 16px;
+    margin-bottom: 72px;
+    letter-spacing: 0.02em;
+}
+.social {
+    
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #fff;
+    margin-bottom:  16px;
+    
+}
+.social-media{
+    text-align: center;
+    margin: 0 auto;
+}
+.list-footer {
+    display: flex;
+    gap: 16px;
+    margin-bottom: 72px;
+}
+.footer-link:hover,
+.footer-link:focus {
+    background-color: #31d0aa;
+}
+.subscribe {
+
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #fff;
+    margin-bottom: 16px; 
+
+}
+.subscribe-form {
+    text-align: center;
+
+
+}
+.subscribe-input {
+    border: 1px solid #fff;
+border-radius: 4px;
+width: 288px;
+height: 40px;
+font-weight: 400;
+font-size: 12px;
+line-height: 2;
+letter-spacing: 0.04em;
+color: #fff;
+box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+opacity: 0.3;
+    background: #2e2f42;
+    margin-bottom: 16px;
+
+}
+.subscribe-input::placeholder {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 2;
+    letter-spacing: 0.04em;
+    color: #ffffff;
+    padding-left: 16px;
+}
+.subscribe-btn {
+   
+    border-radius: 4px;
+    padding: 8px 24px;
+    min-width: 165px;
+    height: 40px;
+    background: #4d5ae5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    cursor: pointer;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em ;
+    color: #ffffff;
+    margin: 0 auto;
+    
+}
+
+
+
+.email-svg {
+    fill: white;
+    display: block;
+    margin-left: 16px;
+}
+
+
