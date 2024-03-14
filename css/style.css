@@ -1075,14 +1075,33 @@ flex-direction: row;
     
     .container-footer {
         display: flex;
-    /* justify-content: center; */
+    justify-content: center;
+   
         align-items: baseline;
+        min-width: 1158px;
     }
+    /* .footer-contact {
+        margin-right: 120px;
+    } */
     
     .subscribe-form {
         margin-left: 80px;
     
     
     }
+    .contact {
+        background-color: #2E2F42;
+        padding: 100px 0;
+
+    }
+
+    .list-footer {
+       margin-bottom: 0px;
+    }
+    .item-footer {
+        width: 40px;
+        height: 40px;
+    }
     
+   
 }
