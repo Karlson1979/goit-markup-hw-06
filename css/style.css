@@ -1039,8 +1039,7 @@ flex-direction: row;
     flex-wrap: wrap;
         align-items: baseline;
         column-gap: 24px;
-        justify-content: center;
-        /* width: calc((100% - 24px) / 2); */
+        width: 552px;
     }
 
     .logo-footer{
@@ -1061,7 +1060,29 @@ flex-direction: row;
 
 
 }
+.footer-form {
+    display: flex;
+    
+   
+    gap: 24px;
+}
 
 
+}
 
+/* =====FOOTER 1158=============== */
+@media only screen and (min-width:1158px) {
+    
+    .container-footer {
+        display: flex;
+    /* justify-content: center; */
+        align-items: baseline;
+    }
+    
+    .subscribe-form {
+        margin-left: 80px;
+    
+    
+    }
+    
 }
