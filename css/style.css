@@ -1038,5 +1038,30 @@ opacity: 0.3;
 flex-direction: row;
     flex-wrap: wrap;
         align-items: baseline;
+        column-gap: 24px;
+        justify-content: center;
+        /* width: calc((100% - 24px) / 2); */
     }
+
+    .logo-footer{
+        display: inline-block;
+       
+    }
+    .footer-contact{
+        margin:0;
+        
+}
+.social-media{
+    text-align:left;
+    margin: 0;
+}
+
+.subscribe-form {
+    text-align: left;
+
+
+}
+
+
+
 }
