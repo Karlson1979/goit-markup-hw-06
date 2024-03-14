@@ -589,7 +589,7 @@ button:focus {
     }
 
     .content-item {
-        width: calc((100%-24px) / 2);
+        width: calc((100% - 24px) / 2);
     }
 
     .title-content {
@@ -906,7 +906,7 @@ flex-direction: column;
 
 }
 .logo-footer {
-    display: inline-block;
+    display: block;
     font-family: "Raleway", sans-serif;
     font-size: 18px;
     font-weight: 700;
@@ -917,7 +917,7 @@ flex-direction: column;
     color: #4d5ae5;
     background-color: #2E2F42;
     margin-bottom: 16px;
-    
+    text-align: center;
 }
 .studio {
     color: #f4f4fd;
@@ -1029,4 +1029,14 @@ opacity: 0.3;
     margin-left: 16px;
 }
 
+/* =====FOOTER 768=============== */
 
+@media only screen and (min-width:768px)
+{
+    .container-footer {
+        display: flex;
+flex-direction: row;
+    flex-wrap: wrap;
+        align-items: baseline;
+    }
+}
