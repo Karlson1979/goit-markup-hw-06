@@ -139,6 +139,7 @@ img {
         line-height: 1.2;
         letter-spacing: 0.02em;
         color: #434455;
+        font-style: normal;
         
     }
     
@@ -338,9 +339,7 @@ span {
         border-radius: 2px;
 
     }
- address {
-        font-style: normal;
-    }
+ 
     .list-address {
         display: flex;
         flex-direction: column;
