@@ -102,7 +102,7 @@ img {
 
 
     .mobile-menu-list {
-        margin-bottom: 168px;
+        
         display: flex;
         flex-direction: column;
         gap: 40px;
@@ -957,9 +957,9 @@ button:focus {
 }
 
 .footer-contact {
-    /* margin: 0 auto; */
+   
     max-width: 288px;
-    margin-bottom: 72px;
+   
 }
 
 .content-footer {
